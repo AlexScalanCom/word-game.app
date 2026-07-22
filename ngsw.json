@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "timestamp": 1784743280729,
+  "index": "/word-game.app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/word-game.app/favicon.ico",
+        "/word-game.app/index.html",
+        "/word-game.app/main-6JTWOEQX.js",
+        "/word-game.app/manifest.webmanifest",
+        "/word-game.app/styles-YHW2PKEZ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/word-game.app/apple-touch-icon.png",
+        "/word-game.app/assets/image.png",
+        "/word-game.app/favicon-16x16.png",
+        "/word-game.app/favicon-32x32.png",
+        "/word-game.app/icons/launchericon-192x192.png",
+        "/word-game.app/icons/launchericon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/word-game.app/apple-touch-icon.png": "92cf6c4be9c4762ee986ee6bc45eeb43949605ef",
+    "/word-game.app/assets/image.png": "e572425f6ff7517e19fa1f59cb9135668de40d40",
+    "/word-game.app/favicon-16x16.png": "a06f6363315f654b881c6515aafffc5990af6f89",
+    "/word-game.app/favicon-32x32.png": "9fb4657827b4199c3ac55610b4492339f0bb483f",
+    "/word-game.app/favicon.ico": "e7bb8fe0e7ff656b14061899381c8cc391243a40",
+    "/word-game.app/icons/launchericon-192x192.png": "6306f9af3c76b610ee40ee32b5da01134a18d8be",
+    "/word-game.app/icons/launchericon-512x512.png": "b46e97ab7572d5ce31191006c3ab8375bcd9e8d7",
+    "/word-game.app/index.html": "dae53f278fe9788afb39fda613ac5267bfb55c06",
+    "/word-game.app/main-6JTWOEQX.js": "bdb1ff093b5b024b839e65e468bd5f7ba312fa94",
+    "/word-game.app/manifest.webmanifest": "baef31a86d0f397d76109d1ae7633300396b97ec",
+    "/word-game.app/styles-YHW2PKEZ.css": "ce4ffa63d02d3771113de59aff155931c389675b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

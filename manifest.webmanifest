@@ -1,0 +1,21 @@
+{
+  "name": "word-game",
+  "short_name": "word-game",
+  "display": "standalone",
+  "scope": "/word-game.app/",
+  "start_url": "/word-game.app/",
+  "icons": [
+    {
+      "src": "icons/launchericon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/launchericon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
